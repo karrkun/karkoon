@@ -16,8 +16,9 @@
     "dev": "concurrently -k \"yarn client\" \"yarn server\"",
     "deploy:client": "cd client && yarn build:prod",
     "deploy:server": "cd server && yarn build:prod",
-    "predeploy": "rimraf ./client/dist ./server/dist",
+    "predeploy": "rimraf ./client/dist ./server/dist && yarn setup",
     "deploy": "yarn deploy:client && yarn deploy:server",
-    "test": "cd client && yarn test"
+    "test": "cd client && yarn test",
+    "setup": "cd client && yarn && cd ../server && yarn"
   }
 }
