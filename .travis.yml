@@ -7,6 +7,13 @@ cache:
 script:
   - yarn deploy
 deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_TOKEN
+  app: karkoon
+  on:
+    repo: karrkun/karkoon
+deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
