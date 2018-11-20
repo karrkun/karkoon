@@ -1,5 +1,5 @@
-import { Karkoon } from './server';
+import { KarkoonServer } from './KarkoonServer';
 
-const karkoon = new Karkoon();
+export const karkoonServer = new KarkoonServer();
 
-karkoon.run();
+karkoonServer.StartServer();
