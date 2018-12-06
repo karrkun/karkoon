@@ -1,5 +1,14 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {
+  MatIconModule,
+  MatIconRegistry
+} from '@angular/material';
+import {
+  BrowserModule,
+  DomSanitizer
+} from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppHeaderComponent } from './_layout/app-header/app-header.component';
 import { AppLayoutComponent } from './_layout/app-layout/app-layout.component';
@@ -12,6 +21,7 @@ import { HomeComponent } from './home/home.component';
 import { IssueComponent } from './issue/issue.component';
 import { LoginComponent } from './login/login.component';
 import { SettingsComponent } from './settings/settings.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +34,24 @@ import { SettingsComponent } from './settings/settings.component';
     HomeComponent,
     IssueComponent,
     LoginComponent,
-    SettingsComponent
+    SettingsComponent,
+    ToolbarComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(
+    matIconRegistry: MatIconRegistry,
+    domSanitizer: DomSanitizer
+  ) {
+    matIconRegistry.addSvgIconSet(domSanitizer.bypassSecurityTrustResourceUrl('./assets/mdi.svg'));
+  }
+}
