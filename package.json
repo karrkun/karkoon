@@ -30,7 +30,7 @@
     "start": "cd ./server && node dist/index.js"
   },
   "dependencies": {
-    "restify": "^7.2.3",
+    "restify": "^7.5.0",
     "restify-cors-middleware": "^1.1.1",
     "restify-router": "^0.5.1"
   }
