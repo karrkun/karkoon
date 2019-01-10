@@ -1599,9 +1599,10 @@ restify-router@^0.5.1:
   dependencies:
     assert-plus "^0.1.5"
 
-restify@^7.2.3:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/restify/-/restify-7.2.3.tgz#ba17f7c73be84a7889538a7bdc3bd138679af1ef"
+restify@^7.5.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/restify/-/restify-7.5.0.tgz#5c7d434f96b23f535649bfcd7b4ad3d5b921853f"
+  integrity sha512-L98BTzA6kmIJhDhU2AiWkT+wzNH9xp5FsqczlmkgxpcfSH/g5dwKE3mQi8qWQLKciWheBTLp+mSKi1nzQaA2Ww==
   dependencies:
     assert-plus "^1.0.0"
     bunyan "^1.8.12"
