@@ -584,12 +584,13 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
-find-my-way@^1.13.0:
-  version "1.15.4"
-  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-1.15.4.tgz#3b1da909347022e0b5ed94ecaaabf6d99096edd6"
+find-my-way@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-2.0.1.tgz#965aa7cacac2362d47d5d7ce219f51bf76216af7"
+  integrity sha512-c+YnWk4LKcWSNu743wfoqNOZTYQ6kZ/kzZCjALGblLpzbEAv3INakGMZ1K/by+Wmf/NP3+3LpOQMOFw6/q52wQ==
   dependencies:
     fast-decode-uri-component "^1.0.0"
-    safe-regex "^1.1.0"
+    safe-regex2 "^2.0.0"
     semver-store "^0.3.0"
 
 find-up@^3.0.0:
@@ -1076,7 +1077,7 @@ lodash.get@~4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
-lodash@^4.17.10, lodash@^4.2.1:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.2.1:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -1599,19 +1600,20 @@ restify-router@^0.5.1:
   dependencies:
     assert-plus "^0.1.5"
 
-restify@^7.2.3:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/restify/-/restify-7.2.3.tgz#ba17f7c73be84a7889538a7bdc3bd138679af1ef"
+restify@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/restify/-/restify-8.0.0.tgz#791f68a86c85826762ab9566a8551cec4301b366"
+  integrity sha512-NkDP83wKq6z6ru8uJwcnWlUd5VJNjXBvyOOnoM6VzbhZ8Jp+CRb86eorH4eoIE5QjOJ4F5Fgd+K0YmASGRQ6OA==
   dependencies:
     assert-plus "^1.0.0"
     bunyan "^1.8.12"
     csv "^1.1.1"
     escape-regexp-component "^1.0.2"
     ewma "^2.0.1"
-    find-my-way "^1.13.0"
+    find-my-way "^2.0.1"
     formidable "^1.2.1"
     http-signature "^1.2.0"
-    lodash "^4.17.10"
+    lodash "^4.17.11"
     lru-cache "^4.1.3"
     mime "^1.5.0"
     negotiator "^0.6.1"
@@ -1630,6 +1632,11 @@ restify@^7.2.3:
 ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
+
+ret@~0.2.0:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/ret/-/ret-0.2.2.tgz#b6861782a1f4762dce43402a71eb7a283f44573c"
+  integrity sha512-M0b3YWQs7R3Z917WRQy1HHA7Ba7D8hvZg6UE5mLykJxQVE2ju0IXbGlaHPPlkY+WN7wFP+wUMXmBFA0aV6vYGQ==
 
 rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
@@ -1656,6 +1663,13 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
 safe-json-stringify@^1.0.3, safe-json-stringify@~1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz#356e44bc98f1f93ce45df14bcd7c01cda86e0afd"
+
+safe-regex2@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/safe-regex2/-/safe-regex2-2.0.0.tgz#b287524c397c7a2994470367e0185e1916b1f5b9"
+  integrity sha512-PaUSFsUaNNuKwkBijoAPHAK6/eM6VirvyPWlZ7BAQy4D+hCvh4B6lIG+nPdhbFfIbP+gTGBcrdsOaUs0F+ZBOQ==
+  dependencies:
+    ret "~0.2.0"
 
 safe-regex@^1.1.0:
   version "1.1.0"
