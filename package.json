@@ -6,7 +6,7 @@
   "author": "Aditya Parab <contact.adityaparab@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/restify": "^7.2.6",
+    "@types/restify": "^8.4.1",
     "@types/restify-cors-middleware": "^1.0.1",
     "concurrently": "^4.1.0",
     "fs-extra": "^8.0.0",
