@@ -19,9 +19,18 @@
     "@types/node" "*"
     "@types/restify" "*"
 
-"@types/restify@*", "@types/restify@^7.2.6":
+"@types/restify@*":
   version "7.2.6"
   resolved "https://registry.yarnpkg.com/@types/restify/-/restify-7.2.6.tgz#0b63688d3d628cc1f8ed7c685dc52d013648384d"
+  dependencies:
+    "@types/bunyan" "*"
+    "@types/node" "*"
+    "@types/spdy" "*"
+
+"@types/restify@^8.4.1":
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/@types/restify/-/restify-8.4.1.tgz#6e93dd326363d297c5e1018212a58cf5b8d78083"
+  integrity sha512-atNjC2l5tNwWmYit348Sba5aDabg8aMfIVSkzPP4/svq5tyF1obbfL3NUJntTEnzq1ttTxwiGWVzybTu8MZdjw==
   dependencies:
     "@types/bunyan" "*"
     "@types/node" "*"
