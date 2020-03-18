@@ -358,10 +358,10 @@
   version "6.14.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.14.2.tgz#40b3dbb1221c7d66802cbcc32fe3b85e54569c77"
 
-"@types/node@~11.13.1":
-  version "11.13.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.1.tgz#f977a12e97695663040581034b483f34c8dd4f6f"
-  integrity sha512-MeatbbUsZ80BEsKPXby6pUZjUM9ZuHIpWElN0siopih3fvnlpX2O9L6D5+dzDIb36lf9tM/8U4PVdLQ+L4qr4A==
+"@types/node@~13.9.2":
+  version "13.9.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.2.tgz#ace1880c03594cc3e80206d96847157d8e7fa349"
+  integrity sha512-bnoqK579sAYrQbp73wwglccjJ4sfRdKU7WNEZ5FW4K2U6Kc0/eZ5kvXG0JKsEKFB50zrFmfFt52/cvBbZa7eXg==
 
 "@types/q@^0.0.32":
   version "0.0.32"
