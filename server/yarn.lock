@@ -26,9 +26,10 @@
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.0.tgz#f47877eca7cb38bbc94e716c044919bb54075828"
   integrity sha512-QEYGliFbMQmDLZAcXJS+AbMDtnH0HjvgiALFbWPHsVn9dD75No+/MGEfpLCsAOWKg8WjtQxwfaPbRiq25XLYDw==
 
-"@types/ejs@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@types/ejs/-/ejs-2.6.1.tgz#cf9cd850a0fd3a55fc4813c97efb0b6503c6f4e6"
+"@types/ejs@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/ejs/-/ejs-3.0.3.tgz#aa88c117fb4e666ece7348e8620d0c57b3cc2ad3"
+  integrity sha512-vkPNcai0FAHsaqLXObm1bTr87XOwfAS1a/jUx5b+Mj+lUToeEcgMIcdE0PuU0CdWq4VkNJYgLa0asYjrNb/maA==
 
 "@types/events@*":
   version "1.2.0"
